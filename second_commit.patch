@@ -1,0 +1,849 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ .idea/compiler.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="BasicNavigationTests" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ .idea/misc.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" project-jdk-name="12" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/uiDesigner.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ .idea/uiDesigner.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ .idea/vcs.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ .idea/workspace.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,182 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="59d84acb-54e1-4a6c-94db-35d03c783428" name="Default Changelist" comment="" />
++    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="IgnoredFileRootStore">
++    <option name="generatedRoots">
++      <set>
++        <option value="C:\Users\Cocuklar\IdeaProjects\BasicNavigationTests\.idea" />
++      </set>
++    </option>
++  </component>
++  <component name="MavenImportPreferences">
++    <option name="importingSettings">
++      <MavenImportingSettings>
++        <option name="importAutomatically" value="true" />
++      </MavenImportingSettings>
++    </option>
++  </component>
++  <component name="ProjectId" id="1SdSdCHyrbKZUDUkjFRcLWFeDsc" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="PropertiesComponent">
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="project.structure.last.edited" value="SDKs" />
++    <property name="project.structure.proportion" value="0.0" />
++    <property name="project.structure.side.proportion" value="0.2" />
++    <property name="settings.editor.selected.configurable" value="vcs.Git" />
++  </component>
++  <component name="RecentsManager">
++    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
++      <recent name="" />
++    </key>
++  </component>
++  <component name="RunDashboard">
++    <option name="ruleStates">
++      <list>
++        <RuleState>
++          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
++        </RuleState>
++        <RuleState>
++          <option name="name" value="StatusDashboardGroupingRule" />
++        </RuleState>
++      </list>
++    </option>
++  </component>
++  <component name="RunManager" selected="Application.TitleVerification2">
++    <configuration name="NavigationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.NavigationTests" />
++      <module name="BasicNavigationTests" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.cbt.tests.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TitleVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification" />
++      <module name="BasicNavigationTests" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.cbt.utilities.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TitleVerification2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification2" />
++      <module name="BasicNavigationTests" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.cbt.utilities.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TitleVerification3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification3" />
++      <module name="BasicNavigationTests" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.cbt.utilities.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.TitleVerification2" />
++        <item itemvalue="Application.TitleVerification3" />
++        <item itemvalue="Application.TitleVerification" />
++        <item itemvalue="Application.NavigationTests" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SvnConfiguration">
++    <configuration />
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="59d84acb-54e1-4a6c-94db-35d03c783428" name="Default Changelist" comment="" />
++      <created>1571892064654</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1571892064654</updated>
++    </task>
++    <task id="LOCAL-00001" summary="changing">
++      <created>1572165334545</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1572165334545</updated>
++    </task>
++    <task id="LOCAL-00002" summary="changing">
++      <created>1572165455442</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1572165455442</updated>
++    </task>
++    <task id="LOCAL-00003" summary="changing">
++      <created>1572294951743</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1572294951743</updated>
++    </task>
++    <task id="LOCAL-00004" summary="changing">
++      <created>1572313475005</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1572313475005</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="COLUMN_ORDER" />
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="changing" />
++    <option name="LAST_COMMIT_MESSAGE" value="changing" />
++  </component>
++</project>
+\ No newline at end of file
+Index: BasicNavigationTests.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- BasicNavigationTests.iml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ BasicNavigationTests.iml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,2 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4" />
+\ No newline at end of file
+Index: debug.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- debug.log	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ debug.log	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,1 @@
++[1025/214100.998:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ pom.xml	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,26 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.automation</groupId>
++    <artifactId>BasicNavigationTests</artifactId>
++    <version>1.0-SNAPSHOT</version>
++    <properties>
++        <maven.compiler.source>1.8</maven.compiler.source>
++        <maven.compiler.target>1.8</maven.compiler.target>
++    </properties>
++    <dependencies>
++        <dependency>
++            <groupId>io.github.bonigarcia</groupId>
++            <artifactId>webdrivermanager</artifactId>
++            <version>3.7.1</version>
++        </dependency>
++        <dependency>
++            <groupId>org.seleniumhq.selenium</groupId>
++            <artifactId>selenium-java</artifactId>
++            <version>3.141.59</version>
++        </dependency>
++    </dependencies>
++</project>
+\ No newline at end of file
+Index: src/test/java/com/cbt/tests/NavigationTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/cbt/tests/NavigationTests.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ src/test/java/com/cbt/tests/NavigationTests.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,64 @@
++package com.cbt.tests;
++
++import com.cbt.utilities.BrowserFactory;
++import com.cbt.utilities.StringUtility;
++import com.cbt.utilities.Wait;
++import org.openqa.selenium.WebDriver;
++
++public class NavigationTests {
++    public static void main(String[] args) {
++        getChrome();
++        getFireFox();
++        getEdge();
++    }
++    public static void getChrome(){
++        WebDriver driver = BrowserFactory.getDriver("chrome");
++        driver.get("http://google.com");
++        String titleFirst = driver.getTitle();
++        System.out.println(titleFirst);
++        Wait.wait(1);
++        driver.navigate().to("https://etsy.com");
++        String titleSecond = driver.getTitle();
++        System.out.println(titleSecond);
++        Wait.wait(1);
++        driver.navigate().back();
++        System.out.println(StringUtility.verifyEquals(titleFirst,driver.getTitle()));
++        driver.navigate().forward();
++        System.out.println(StringUtility.verifyEquals(titleSecond,driver.getTitle()));
++        driver.quit();
++    }
++
++    public static void getFireFox(){
++        WebDriver driver = BrowserFactory.getDriver("firefox");
++        driver.get("http://google.com");
++        String titleFirst = driver.getTitle();
++        System.out.println(titleFirst);
++        Wait.wait(1);
++        driver.navigate().to("https://etsy.com");
++        String titleSecond = driver.getTitle();
++        System.out.println(titleSecond);
++        Wait.wait(1);
++        driver.navigate().back();
++        System.out.println(StringUtility.verifyEquals(titleFirst,driver.getTitle()));
++        driver.navigate().forward();
++        System.out.println(StringUtility.verifyEquals(titleSecond,driver.getTitle()));
++        driver.quit();
++    }
++
++    public static void getEdge() {
++        WebDriver driver = BrowserFactory.getDriver("edge");
++        driver.get("http://google.com");
++        String titleFirst = driver.getTitle();
++        System.out.println(titleFirst);
++        Wait.wait(1);
++        driver.navigate().to("https://etsy.com");
++        String titleSecond = driver.getTitle();
++        System.out.println(titleSecond);
++        Wait.wait(1);
++        driver.navigate().back();
++        System.out.println(StringUtility.verifyEquals(titleFirst,driver.getTitle()));
++        driver.navigate().forward();
++        System.out.println(StringUtility.verifyEquals(titleSecond,driver.getTitle()));
++        driver.quit();
++    }
++}
+Index: src/test/java/com/cbt/utilities/BrowserFactory.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/cbt/utilities/BrowserFactory.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ src/test/java/com/cbt/utilities/BrowserFactory.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,27 @@
++package com.cbt.utilities;
++
++import io.github.bonigarcia.wdm.WebDriverManager;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.chrome.ChromeDriver;
++import org.openqa.selenium.edge.EdgeDriver;
++import org.openqa.selenium.firefox.FirefoxDriver;
++
++public class BrowserFactory {
++    public static WebDriver getDriver(String browser) {
++        if (browser.equalsIgnoreCase("chrome")) {
++            WebDriverManager.chromedriver().setup();
++            return new ChromeDriver();
++        } else if (browser.equalsIgnoreCase("firefox")) {
++            WebDriverManager.firefoxdriver().setup();
++            return new FirefoxDriver();
++        } else if (browser.equalsIgnoreCase("edge") || browser.equalsIgnoreCase("safari")) {
++            String os = System.getProperty("os.name");
++            if(os.equals("Windows 10")){
++                WebDriverManager.edgedriver().setup();
++                return new EdgeDriver();
++            }
++            return null;
++        }
++        return null;
++    }
++}
+Index: src/test/java/com/cbt/utilities/StringUtility.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/cbt/utilities/StringUtility.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ src/test/java/com/cbt/utilities/StringUtility.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,25 @@
++package com.cbt.utilities;
++
++public class StringUtility {
++    public static String verifyEquals(String expected, String actual){
++        if(expected.equals(actual)){
++            return "PASS";
++        }else{
++            return "FAIL";
++        }
++    }
++    public static String verifyStartWith(String URL, String str){
++        if(URL.startsWith(str)){
++            return "PASS";
++        }else{
++            return "FAIL";
++        }
++    }
++    public static String verifyContains(String Url, String title){
++        if(Url.contains(title)){
++            return "PASS";
++        }else{
++            return "FAIL";
++        }
++    }
++}
+Index: src/test/java/com/cbt/utilities/TitleVerification.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/cbt/utilities/TitleVerification.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ src/test/java/com/cbt/utilities/TitleVerification.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,29 @@
++package com.cbt.utilities;
++
++import org.openqa.selenium.WebDriver;
++import java.util.Arrays;
++import java.util.List;
++
++public class TitleVerification {
++    public static void main(String[] args) {
++        List<String> urls = Arrays.asList("http://practice.cybertekschool.com/",
++                                    "http://practice.cybertekschool.com/dropdown",
++                                    "http://practice.cybertekschool.com/login");
++        WebDriver driver = BrowserFactory.getDriver("chrome");
++        driver.get(urls.get(0));
++        String firstPageTitle = driver.getTitle();
++        String Url1 = driver.getCurrentUrl();
++        System.out.println(StringUtility.verifyStartWith(Url1,"http://practice.cybertekschool.com"));
++        driver.get(urls.get(1));
++        String secondPageTitle = driver.getTitle();
++        System.out.println(StringUtility.verifyEquals(firstPageTitle,secondPageTitle));
++        String Url2 = driver.getCurrentUrl();
++        System.out.println(StringUtility.verifyStartWith(Url2,"http://practice.cybertekschool.com"));
++        driver.get(urls.get(2));
++        String thirdPageTitle = driver.getTitle();
++        System.out.println(StringUtility.verifyEquals(firstPageTitle,thirdPageTitle));
++        String Url3 = driver.getCurrentUrl();
++        System.out.println(StringUtility.verifyStartWith(Url3,"http://practice.cybertekschool.com"));
++        driver.quit();
++    }
++}
+Index: src/test/java/com/cbt/utilities/TitleVerification2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/cbt/utilities/TitleVerification2.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ src/test/java/com/cbt/utilities/TitleVerification2.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,21 @@
++package com.cbt.utilities;
++
++import org.openqa.selenium.WebDriver;
++import java.util.Arrays;
++import java.util.List;
++
++public class TitleVerification2 {
++    public static void main(String[] args) {
++        List<String> urls = Arrays.asList("https://luluandgeorgia.com",
++                "https://wayfair.com", "https://walmart.com", "https://westelm.com");
++        WebDriver driver = BrowserFactory.getDriver("chrome");
++        for (String each : urls) {
++            driver.get(each);
++            String title = driver.getTitle();
++            String t = title.toLowerCase().replace(" ", "");
++            String Url = driver.getCurrentUrl();
++            System.out.println(StringUtility.verifyContains(Url, t));
++        }
++        driver.quit();
++    }
++}
+Index: src/test/java/com/cbt/utilities/TitleVerification3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/cbt/utilities/TitleVerification3.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ src/test/java/com/cbt/utilities/TitleVerification3.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,23 @@
++package com.cbt.utilities;
++
++import org.openqa.selenium.WebDriver;
++
++import java.util.Arrays;
++import java.util.List;
++
++public class TitleVerification3 {
++    public static void main(String[] args) {
++        List<String> urls = Arrays.asList("https://luluandgeorgia.com",
++                "https://wayfair.com", "https://walmart.com", "https://westelm.com");
++
++        for(String each:urls){
++            WebDriver driver1 = BrowserFactory.getDriver("chrome");
++            driver1.get(each);
++            String title = driver1.getTitle();
++            String t = title.toLowerCase().replace(" ","");
++            String Url = driver1.getCurrentUrl();
++            System.out.println(StringUtility.verifyContains(Url,t));
++            driver1.close();
++        }
++    }
++}
+Index: src/test/java/com/cbt/utilities/Wait.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/java/com/cbt/utilities/Wait.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
++++ src/test/java/com/cbt/utilities/Wait.java	(revision 5496bd6624d5b8c458c37d66ef10106d05a94e9f)
+@@ -0,0 +1,11 @@
++package com.cbt.utilities;
++
++public class Wait {
++    public static void wait(int seconds){
++        try {
++            Thread.sleep(1000 * seconds);
++        }catch (InterruptedException e){
++            e.printStackTrace();
++        }
++    }
++}
+diff --git target/test-classes/com/cbt/tests/NavigationTests.class target/test-classes/com/cbt/tests/NavigationTests.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..f055230023662862f8daae50d65eb532dd793942
+GIT binary patch
+literal 2181
+zc%03Z?N$?46o%gkF%u@EKmaW*R20-C2Br!s5(FzB6^%#>LaY6ngp*-xG6ORwP*!_W
+z?T<F}M=zk4(+lY8dnQn<&QgAwwX$dS*&k;=d!Lj1_0J!F0+@tj-~z@BoX5BlmJ*+&
+zal^n(Or$ZH!7bcY;!Y=~aM!>zN(N?dPp!?SF_*!8e5%9)1M^r=Z;Q&dl*VUiJk+tQ
+z<B^8cjO)2_RzpWFzo8*H?{5hWU1ir3E6qkl1nYLC&XsK0uiEtuJ8+eLw3w9JZm8j6
+zx#~BpYDHR7gfg^N>^;}9rR#g^N-xo|VY{A&^SKx0m-e1*)ostQ)@0y%PAS^f4jd-x
+zjWKKJbcCGW4*UjpOl<}3o(R;Qe&AUCj_`JED-?C%xy^>PDJlz*1H%mI%DPx`gHWpS
+zV-jZ~k2O*Cy)F848+wZ+|3?ivmBlTGI~r?#GpI6;0`7YaZCqtF@c{-*j3|*;qJRNb
+zT8&E9@z_KePc-ywOSv;`S&r{JburGC=~yxG6ssma#}_)*OswOXjtvu=Sk>{RiLdb7
+z#0z|@p<6|V3>PvyXa|31;(HZrV?am6L={^mgest>3eanWsVSJGh)9OsIwfv#(xRu8
+zm!itH4IhUzrCWEUD?;l*;O~bbShB0q4-VSXSvVTXL@s8$?;O<7TOD{Zxr2uOxZFHC
+zX<FCS966m_K5opfaIGDLQZ$&-Z>p4SZ`Ze0=_(l@>;?mRW0u*^9i`RPF@Ccvo3_h@
+z$^G^tw;WaGwL7d1(Mhv4n9H6gg88}~hJtM`=HAhw(UV{nmpiSmhJ^H4OvSGL!29xM
+z&Fuy~i*ydsWVl;9Sln&eb(S?1)9<+H#xz{7`N6&&@J=Ono36wq{&rn}`kaBLE(_&{
+z)GR(VwOaTc+An-b;3LXZw3x;qrP+4C5I*L!6BjXj6nvjwWiwhxw9wH)@+3nRNo7F?
+zGR$T&?(8es3>I`b$~N*}DSy+qgU_F{XIe--E@bsXq!TC{qEkcpR~XlSLnhgR$(6JG
+zIXQQTu4D5Pnv4H4AEH}>3TivF&_naFDI1xJubFx^oYX&yF3K*}-i>qUK|hHG(M$F|
+zj8U6pLrZMw9Gm%w4A03R7}=!PPwbUq9VSl-dl<zPYW;9<71u~RiHFGXEkXW#41eEy
+z!#~XWFOmN;s~;iLC|9nK|0)@-kv~WNJoyXczfS%l`NzmVero<g41fQ7!+(SI-z5J;
+zH1R?HcMsz>3GYywBL7|TPm{ky{u%P$BmXS<=T6C=VAs@+MSK(83XON_7QRk({tLjQ
+B(eVHP
+
+diff --git target/test-classes/com/cbt/utilities/BrowserFactory.class target/test-classes/com/cbt/utilities/BrowserFactory.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..3e0756ac0520a299322706c0626630eeb691e38e
+GIT binary patch
+literal 1268
+zc$|$?>rN9v6#llf-LfpV<>mzy0ii9zf+$`<lv@>3!~}(CV$5_qEQ9SX>~29GMV|uy
+z0MWz;@C|$wV~l5Z+X&i3+w{!LnRCv3-#2Ia_2;KA0B+)mhHea}kk&AWjD{>mq`9tQ
+zR6|nkjLEgBVqAkJ*Apq+NMTZ=<Xb6B$-LV#<c^BF8agnn;+~3W1<4uVh+tMhLprmr
+zAim%hxq{ZbaQM?oxxl^WtWYA4k#{XtT4$b+>#8#zYzbdMf8KJ-rd0^cN+3!i5ZpKC
+zJ$K*dUXEFT>mATRjW!P!J+a3<1(WIgHrr!ni8;2p7I?z3r!#rivrTu0JG;#Ed5Jrs
+zQZ_euAxfeOG1r$k{>oIK7NXM>G_M8Bdb`4QLWC-26liO1#j|)$NW>jyagE7hI(l%9
+zl(4oux6F0i$E=D6Iv!$9$GqGct_Lj&Hy6U8#!TH59^Z7|=~%#=f=s={YKWPO##(Be
+z7i~hA^w}n<Or>0Z%wc6Bv8ZDSIbyOQoFc*Rn;6&e2#<9v%R>h09U_aFOJr*0`~G!D
+z3fg{4yIR=hR&d4@sZB1vTVW-C*>+ryFEF1lch$SkS43a9rY(Z4O2I6+j<A_$31;pW
+zPu=SZbC@mh>5-nrD%{a@CjZ~r)B*{g2bCRafU3H+I;RO7_yI2~XrfMh=8<4tK%|H2
+z_F|nTOGdo^U>gY)vel&K(Yd&aE_$-^6N4iAi|lz?nKUXiCbGv+K8D*D$R<N)BQBEF
+zqX6{cQs}#kE7jz06dj|HWsTSo8s4M*1o0yzJ|p?^80ulxNY&hpp<5$&6S;MAe}JAf
+zn#28mqveF2_=wSVg!VAp2*W!lyz@|@FCEel0-HiJ*(QRaqm|}8Xh9#%hR}vFw9^|g
+zkfZ;TRdnJ7aehq^ZwRa;(oJA<H18udBqfG^ngIj!YeAx?yZr}xRSbR)HMtgwG4u<v
+CygdN`
+
+diff --git target/test-classes/com/cbt/utilities/StringUtility.class target/test-classes/com/cbt/utilities/StringUtility.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..47898e4a0e88c1184a902ee12d305fa7e51031c7
+GIT binary patch
+literal 966
+zc$|e&+iuf95IviV<0h_C(l%TQlmMkk3iS&QNI^(dL?tA1QB8})+s55CTU@)fHx>O9
+z{-V5q!~-9|M<HfyD<m`(ewf*vJ!j6Gk$?UE@e{yPY*u07ZWXJzXQE}|zCJ$C;b8@9
+z6+B`vp36|G7YxOAXOE%OkM;#a-IbwuGddoK_&py4RB5=8&x1W4OMTCaB{h@@L(BD}
+zW5*vTXQX5xl@y8NsaS@GyXpPB$6%d_SRS0eJRR|XD9_sN5kKQjz{A5F+q+!pTrM$~
+z;`52{mDtxq&3HGsuSkSp-c#KF^qQaK)7G;Qs2ZyeQVq%T?v6__Q89y^z4oI}aTzB1
+zF{UPEC6y*uy=WBsVq2!mm~ywNhp;e*Y6a^S+UU?`-fejvrR}X(u7xf(EIh^&hSmRU
+ziecferMH74GCEbtz+_V7i(H;uWJc(9KGM92wwYu;muGBSgG_(yc4ZRMAM)5E1rhp!
+zfM}sYKa&1RVA?3f8r>YqjB>gA9qcO|3a}^|X|afTidF`IjXLEyEZ|yB_6S{|Y<D-l
+zq3{Jpqj=FMU8GFi#ip#8CiSaP)ZLmH0}U*u<JefD6B$fdtVROO*#hOO1gx}mjmDc4
+lxIPxR@vp$m*#gE@0*fTDMEK^Ez^$>s%CrE(?R1fM{s718z83%h
+
+diff --git target/test-classes/com/cbt/utilities/TitleVerification.class target/test-classes/com/cbt/utilities/TitleVerification.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..77f4df8eec32cbe9ee908c1a7841e979a3474bd1
+GIT binary patch
+literal 1893
+zc$|$@%~u;$6#u<^O$ftB0|il$T3SuY$JkP}LPT3AN(~eZ1hK6;nY<>iPG-W(8+x*J
+z;nGEy?(N2NJVzG_di1DE|0s|5O{f|&$CAbSy7zZKe)rzVpMU-ID}bx0WH1WLz$<B7
+zPUA`%3mJNSHI3IYcpcaJ@dg(Av4nzN-qg!-AKt>-X<X0X239gy#Z7%$)3SFAylY^c
+zAyp8bP|FPQT)xbZSn;czVW=oPz8N$sTyEPHmtL|(-?81YErq@xKPFUNv=}ZH9lv2Y
+z6=elVxIziuvbKeCd6`RbUpTfBzPCi`4O@5&W4SxU2ljz&xwcocN=gc^wiG(IWsS^@
+zM2JZkNSB1e9hr7y6-7&tBvqB-fJ=s{qAzQf-{juDZMC?|JrOjlU0zuY6-agPzK|`o
+zW!HEZpH3^v)sA#86A3Nu_+Irt+FEdhtWetW<og08*3D77`GltnCxR~YdR->JnUWt!
+zhp!2Z8S7ziUV}`W#Te0W(g4GBU8&}xWi_SkDB<vVr%mNk{Iix*_kDL>*N9=}6k1j3
+zH>>_bDpl?j+OA&{o`G8?-b0b9;nbzy;088KY~r?oEfeqK0|O<!Z=2Xb*~Bi&20k>g
+zhmRP}Ki!LgJ0|Ypo`H`|e4@>KihCw(&BgR7y043|+m#30QBR)2s$7@SZc}@u?3OMN
+z^>kO0b`VSX-sU^k>->iFAGWw$qhx&9X6UPNwR+s53%Q8ae|p<?yQN_zlMH8b>-pXw
+z87BYNp2kJbUz)5Qcl2m3A2k^Rq_Gl6$vs6a-`$4omf{Tx%@1^F9klSRErKdC!0iSZ
+znChjgV|*vP6I(+Ex@_%|vZdM;s?KmNBHSnzBjO#2h=Rdr>YGbVVRoF|+z)L1aY^h4
+zLg7V>(5F`aVqkjQXdS1UMLVNCdFe;6??Ul2w5GyG0~55G9R)m#=V<T4^O)>_*&`(A
+z4*Ze&1+l$&HeT9GWD}*mWHwnkM5>rI4w2rNorxczFNWU`J3=Og*(3BbY|>^jEGE9k
+zz(gWDc!;4NFg!bxh|pb3lG5Bn@(^dVP6wFMz|_CMWE9W{fkqcFt%2!(fJewO=*;6`
+z=C_ayvmB?qCozCI4ANiH5DFN^I?m8=XK6x5&>%VkBJy*h@)2o&Md-)G*SEye&&1U4
+z#FJ+4ZigYffGOI?@eR&VF{q#MHO^z2_`ZrSaRC>}e*s_MB|0U@gN>Kzlq4S;$k8c9
+d9&*Uj$six2xJ0KkW{&IAu{#?Ub1tmn{NIRC<jDX4
+
+diff --git target/test-classes/com/cbt/utilities/TitleVerification2.class target/test-classes/com/cbt/utilities/TitleVerification2.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..69c22ad336371a2f7f883bd069b7d19458f8f699
+GIT binary patch
+literal 1902
+zc$|$@Yg-#d6n-}(*(F(S;Zmto5NU;$vI12rP_zxjqJdTeREkz7%a9D+?1tG182^dC
+zz|Z=Dg3qImpZ!UGsGiw0m5_Kzo@XxS^3HqCoHP6Ti=Tf5a0@DhVZ3MJeG9iOd|+Y0
+z!eR<bxMN{Cg%9yj8nd{Y#ysxnA)Ce=R`hT`g&0;Xd~D%?Uao23C!P2dxfIs1k-|ef
+z(z4G?d~PCdAh{%bp_UDFOipbZh-ZU6ZlEV8e7;dF7r5MH1&<_|T;MWqn@OSfFNJYc
+z5}|=>IX5UfZb3O!B|M=751mb+Jig7P*cUESBJk%H$-c~lZ(wM0H+R5}nBy_O=;W0Y
+zesNKso>1CLAJ(EaU??KFB|U=S%q`KxWRXtqZv#fks`N<NTi0n`PELf1G|4?Fj<_^1
+znhRvn2`bz_WKPIE?u%;KdCUtdkpY<wH3wa*Gy<Qv0K3#mVVV59@`}07)>$QTGqGu6
+z%LE0Q$_G{H@>QY1F16-rM#I^-jMpiIi_iuxmz1i63y$Mey(;tfiku=5Y=*9Z^3hNp
+zv)VorvPJ5ZnN%00JXG8(YpIFHHom|PWy&qdpiI1<*x1FFHon4B8(-ra8w>>-F7|A2
+z?As_}pDt+30Bn>XY#d<U#4{Tn2+y|>pkm_ChSV;h4r}87)J#+K4+{s}r6TBV&b@&v
+z|9X#9PJcVBDK41`WCJ)7-j$Nos92ILtOH(cD$x45i&L$oG}ao!JsBK_T&^;gPN^B_
+zEOOQ0F+bU+?EkX}E%A!;(Byd%jabOWEU|Edf2*Q4enQpnN1K6${rNb^hBz4*Y{!Ob
+z(<1F=y$_rHU-ed61-amu%Pb4Y$dtU|F_%^==Ml3dCiDET%6*qF{*$~dd>0YOR;A>=
+zirW2r1JtNYsct)hs*a%UEdu8exhewStV{r-t=Ccq--`BhE8R!B%4*rbSM(y$)!%ND
+zjCPmRhHifw5|ovS-g)%e#Sg1O;Z3|okGlTFVCcrCafEgb&D1tXTz?MZ$4GsJ#$+Tk
+z@dk8DMFtqf7|opoHC}f%W)X))vhU1a5Zmd<bmVv9nRtFDkxArtl9^=w6lN}CouYI7
+z#u-uuHg29FZQy&X(84zG8)6Ib>EZYpx?-3<L$`s2#BkySJ(=E2-w84cNs{)H)cgqp
+z!{%`E6oV%i`r*$rl3y~Q8OI~WGe}45Mra-<&Ues-`{<^xP7ggEz4Tc0p@IxGe?Mv%
+zh$4GH5w7Dc`cF`NyBNe(S|!Q03)g6663RT@rd3==iAhY+Jc6gVjvJJNaeAkwag%a3
+i^D<9$olfdIB<Vx!1*S~QnwT>&{|DAcaVtvlyMF<5SLU7o
+
+diff --git target/test-classes/com/cbt/utilities/TitleVerification3.class target/test-classes/com/cbt/utilities/TitleVerification3.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..a9fac203b45c7d66ea4909fe399fa0a673c3ed4c
+GIT binary patch
+literal 1904
+zc$|$@TUT2}6#gb8IUzY*8ZI@}3R+sB7mk!#D^Roz#a2UF4bal!WpWsjp(p2rITJ8z
+z=@0Q2xR!7FfZ$rX`rM!7T3+^?lnNwX@-S!S+k1ceGJ8*+|MBy$0Ior&k;6L{uBY&B
+z3O7=CFNK*jW-*t+6mDj474v3!KZOs{xP{vp<gs9uJ88tQn8JrC+%?;K2K=ZSAES`Q
+z5{hZu#{+|XV&PK@C5Ggj^rfC>=o+6`Wr*j44Z+Y?kiIB3YGt98dD$Z*TL@h4t#T#J
+z`2`r)RT(l|D7Zn*am(6iXz58UMd&O`?TJ;P<fe4FmVrM#OZqh~eTL!jCxtD(!yS+N
+z6{n<?^eeN*yS1U@j!;t!BZWX!oS-iJZSI7^6TWQJoQI;k5NQxsLK_bzur?|NrYWHn
+z<&jIl-70;!s!*f@9UPOep*#}yw`3*<ryxU3lHuc7H|vL)kDbt+Yv-LO`<{~K?$ae+
+zkIXDATUcR8mx6|J#iBG!r`szvX}D~h!K)P1NnVCCRjupcjN^C>ufhF|ilACaK1r8A
+z86FCEd2^FX)rNXCuJlP%gj#qtgIZX%@eq$}tl_bZCs?=f89t{*ajPn*Q4U|&_!8Vg
+z*@lY^8v>g)D%hl|k21hU71G8QHZ450;ejZ98v*JTwrwb55}M4${!h~!E5QBomT>82
+zdym(idf;#1o)(JhKph%J;4P(ilWsW4!<NDMV;$Jyot<dE|CD@5H#~k+e&~jDtSS$S
+z;wv4E&|~T*KROH^>K}E%FxsB=Z58Z>LM?Ka2%8Mu6`@;g&M-aRVN(8cHqQR50tHGQ
+z7=}7=(-fviy4)JB<4L?6n2Zhz!LCqw9+Hx!MBU>q?G}zQ=Br$l#CAjYu9*ENyd!-N
+z1(0tjC43#t@X;A)Qm0bub_ETSLCabO&I2;lL?C#L2u9kA+#+9z&Q#;x9n)paeBf((
+zlBhLqbSOrr(su}VphFN;mAW~3^xP#}F9-$Rz$^5un_mpf3^%Q>(aE7N%?%P4e**g<
+z5}&0t8G$Lh4l`4c0!A=O-)^FMvt`Vt5GNhr8|xRu*1ED?rL}lAURq0J6Q#9eHd)$-
+zRk(D36vNWx19UTdixO?p49^fNW;6S+XX3f|l>_v|kc%InmtiK6OYEU9+n+tPhwMz!
+zzykzZKVmRv<&ygt+QYCxPcwY?=l3S)cog&`GPI^Cv>seXFK(g_chHX_PGKEcdMgI#
+z1sFsVL--oQQF3=-k=`86VT@RcxP<e#K*_EX<6E>#lGPx_X-EHv^w%{(yDpP5E|M<D
+m7sq8>p@K}lC{+tFb$y$VUc`RKISW%3uKtEcgic3AzV;WO80TjI
+
+diff --git target/test-classes/com/cbt/utilities/Wait.class target/test-classes/com/cbt/utilities/Wait.class
+new file mode 100644
+index 0000000000000000000000000000000000000000..0e83ad129d2c0b43a917d7d63605c7af5f93bc17
+GIT binary patch
+literal 588
+zc$|GuO;6iE5PfSq+1Lq9NFk+xrof30slIRnaj8HGGH^%~&YR7uS#WI2*#Li_zoq9~
+zTEu}Lz%Sufpw5~|Ri&z4d7kFYyf?G^{QCF=-~ihJ%J>jq4Ieq$0bHzeY;b&HC?DxW
+zn_~udXLrEheN9J-p&sc(UCbs!mG{LkCZ-vsQp5w1Ynv}f&y4kyVJ(vBB$PuF&Ww(=
+z(P|oA32hFk<BpJEr)%9AX*Q#4aVx@DB;UerVpN{bGNVQ(_flm>rwNJpRLL|Mku&Qu
+zEcJ|#H|HW-3=MkeESKt3+r+nXzF5Z^I4T^S8a`u_q4WPKHEf~6(E9h{42?hX%i*<>
+ze^dQ&uEdC;G>w(Y?Dfv<_3Bx!6H~0)&xKSpqeKsHKL^b2N71J&BxHo8y<cGSq8v~x
+z7o>|S#oAi~;S!;bcc?GKH`MJAHkaL(_W1h)oFAw}`#<5$3yn`2myUI8k%RU13zm~t
+i1<O>a7Bz=*4-I0hu1V)T;R^j6PQ>AQR9G$6YyAd|m~_?v
+

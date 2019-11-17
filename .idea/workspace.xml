@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59d84acb-54e1-4a6c-94db-35d03c783428" name="Default Changelist" comment="">
+    <list default="true" id="59d84acb-54e1-4a6c-94db-35d03c783428" name="Default Changelist" comment="Revert &quot;second commit&quot;&#10;&#10;This reverts commit 5496bd6624d5b8c458c37d66ef10106d05a94e9f.&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework/TestCase8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework2/TestCase1_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework2/TestCase6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework2/TestCase7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework2/TestCase8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cbt/tests/homework2/TestCase9_12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <list id="8301a5a5-f5ad-4bec-b3e4-21a9200a35cb" name="New changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +57,10 @@
   <component name="ProjectId" id="1SdSdCHyrbKZUDUkjFRcLWFeDsc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -67,65 +81,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TitleVerification2">
-    <configuration name="NavigationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.NavigationTests" />
+  <component name="RunManager" selected="TestNG.TestCase7.test7">
+    <configuration name="TestCase6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.tests.*" />
+          <option name="PATTERN" value="com.cbt.tests.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests.homework2" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.homework2.TestCase6" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification" />
+    <configuration name="TestCase6.Test6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.utilities.*" />
+          <option name="PATTERN" value="com.cbt.tests.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests.homework2" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.homework2.TestCase6" />
+      <option name="METHOD_NAME" value="Test6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification2" />
+    <configuration name="TestCase7" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.utilities.*" />
+          <option name="PATTERN" value="com.cbt.tests.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests.homework2" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.homework2.TestCase7" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TitleVerification3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cbt.utilities.TitleVerification3" />
+    <configuration name="TestCase7.test7" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="BasicNavigationTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cbt.utilities.*" />
+          <option name="PATTERN" value="com.cbt.tests.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests.homework2" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.homework2.TestCase7" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase8" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BasicNavigationTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cbt.tests.homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cbt.tests.homework2" />
+      <option name="MAIN_CLASS_NAME" value="com.cbt.tests.homework2.TestCase8" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TitleVerification2" />
-        <item itemvalue="Application.TitleVerification3" />
-        <item itemvalue="Application.TitleVerification" />
-        <item itemvalue="Application.NavigationTests" />
+        <item itemvalue="TestNG.TestCase7.test7" />
+        <item itemvalue="TestNG.TestCase8" />
+        <item itemvalue="TestNG.TestCase6" />
+        <item itemvalue="TestNG.TestCase7" />
+        <item itemvalue="TestNG.TestCase6.Test6" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +185,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="59d84acb-54e1-4a6c-94db-35d03c783428" name="Default Changelist" comment="" />
-      <changelist id="8301a5a5-f5ad-4bec-b3e4-21a9200a35cb" name="New changelist" comment="" />
       <created>1571892064654</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -176,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572499036603</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changing">
+      <created>1572501893335</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572501893335</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New changelist">
+      <created>1572502604548</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572502604548</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +257,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changing" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing" />
+    <MESSAGE value="New changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
   </component>
 </project>
